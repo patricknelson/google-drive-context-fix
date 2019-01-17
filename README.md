@@ -6,7 +6,7 @@ Normally this isn't necessary and can configured to work this way by just adding
 
 ## Demo
 
-Example of <kbd>right-click</kbd> (faster) and then <kbd>right-click</kbd> + <kbd>shift</kbd> (slower but includes Google Drive options when you *need* them).  
+Example of <kbd>right-click</kbd> (faster) and then <kbd>right-click</kbd> + <kbd>shift</kbd> (slower) but still includes the Google Drive options and *only* when you actually need them.
 
 ![Demo](demo.gif)
 
