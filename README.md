@@ -17,12 +17,12 @@ Once running, you should see the AutoHotkey icon ![AutoHotkey System Tray Icon](
 
 #### 1. Configure Registry Permissions
 
-* Press <kbd>Windows</kbd> + <kbd>R</kbd> to open the "Run" dialog.
-* Type `regedit` and press enter.
-* Find and right-click on each of the registry keys listed below and:
-    * Select `Permissions...`
-    * Select `Users` from the list
-    * Enable `Full Control` permissions and click `Ok`.
+- Press <kbd>Windows</kbd> + <kbd>R</kbd> to open the "Run" dialog.
+- Type `regedit` and press enter.
+- Find and right-click on each of the registry keys listed below and:
+    - Select `Permissions...`
+    - Select `Users` from the list
+    - Enable `Full Control` permissions and click `Ok`.
 
 
 	HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\GDContextMenu
@@ -35,23 +35,23 @@ Once running, you should see the AutoHotkey icon ![AutoHotkey System Tray Icon](
 
 **Quick:**
 
-* Download [google-drive-context-fix.exe](https://github.com/patricknelson/google-drive-context-fix/raw/master/google-drive-context-fix.exe) to your computer.
-* Double click `google-drive-context-fix.exe` to run the fix.
+- Download [google-drive-context-fix.exe](https://github.com/patricknelson/google-drive-context-fix/raw/master/google-drive-context-fix.exe) to your computer.
+- Double click `google-drive-context-fix.exe` to run the fix.
 
 **From source:**
 
 If you prefer to be safer and also have the ability to tinker with the code, you can also run from source. This only requires that you already have [AutoHotkey](http://www.autohotkey.com/) installed. 
 
-* Download and install AutoHotkey from [http://www.autohotkey.com/](http://www.autohotkey.com/).
-* Right click [google-drive-context-fix.ahk](https://github.com/patricknelson/google-drive-context-fix/raw/master/google-drive-context-fix.ahk) and select "Save link as..." to download.
-* Double click `google-drive-context-fix.ahk` to run the fix. 
+- Download and install AutoHotkey from [http://www.autohotkey.com/](http://www.autohotkey.com/).
+- Right click [google-drive-context-fix.ahk](https://github.com/patricknelson/google-drive-context-fix/raw/master/google-drive-context-fix.ahk) and select "Save link as..." to download.
+- Double click `google-drive-context-fix.ahk` to run the fix. 
 
 
 #### 3. Run at Startup (Optional)
 
 To ensure this works every time you start your computer (recommended), you'll need to perform a few extra steps:
 
-*  Press the Windows Key + R to open the "Run" dialog.
-*  Type (or paste) the following and click OK. This should open the windows "Startup" folder: `shell:startup`
-*  Right click the downloaded `.exe` or `.ahk` file and select "Copy".
-*  Right click inside the "Startup" folder and select "Paste shortcut".
+-  Press the Windows Key + R to open the "Run" dialog.
+-  Type (or paste) the following and click OK. This should open the windows "Startup" folder: `shell:startup`
+-  Right click the downloaded `.exe` or `.ahk` file and select "Copy".
+-  Right click inside the "Startup" folder and select "Paste shortcut".
